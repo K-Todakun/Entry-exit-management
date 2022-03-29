@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <title>TOPページ</title>
+    <head>
+      <meta charset="UTF-8">
+      <script src="js/box.js"></script>
+      <link href="css/box.css" rel="stylesheet" type="text/css">
+    公立千歳科学技術大学
+    </head>
+
+    <body bgcolor="#f0f8ff" onload=postFetch()>
+<!--
+    <section>
+        <h1>今日の一句</h1>
+            <section>
+                <h2>一句詠む</h2>
+                    <input type="text" name="ikku" size="30" maxlength="30" class="postIkku">
+                    <input type="button" value="送信" class="postBtn">      
+            </section>
+    </section>
+-->
+
+    <h1>研究棟の現在の混雑状況</h1></center>
+    <h2><a href="gakka.html">教員</a></h2>
+    <hr>
+    <table>
+        <tr>
+            <td><div style="width:25px; height:25px; background:red"></div></td>
+            <td>&nbsp;</td>
+            <td>75%以上</td>
+        </tr>
+        <tr>
+            <td><div style="width:25px; height:25px; background:yellow"></div></td>
+            <td>&nbsp;</td>
+            <td>50%以上</td>
+        </tr>
+        <tr>
+            <td><div style="width:25px; height:25px; background:blue"></div></td>
+            <td>&nbsp;</td>
+            <td>25%以上</td>
+        </tr>
+    </table>
+
+    <h3>1Fの現在の状況</h3>
+      <div class="pbox">
+        <div id="101" class="cbox">E101</div>
+        <div id="102" class="cbox">E102</div>
+        <div id="103" class="cbox">E103</div>
+      </div>
+
+    <h3>2Fの現在の状況</h3>
+       <div class="pbox">
+         <div id="201" class="cbox">E201</div>
+         <div id="202" class="cbox">E202</div>
+         <div id="203" class="cbox">E203</div>
+       </div>
+
+    <h3>3Fの現在の状況</h3>
+       <div class="pbox">
+         <div id="301" class="cbox">E301</div>
+         <div id="302" class="cbox">E302</div>
+         <div id="303" class="cbox">E303</div>
+       </div>
+
+    <p id="test_line">test</p>
+    <button onclick="test()">change</button>
+
+    <hr align=center size=10  color="#66cdaa">
+    <center><marquee width=300 bgcolor="#e6e6fa">
+    消毒はこまめにしましょう。
+    </marquee></center>
+
+    <a href="kenkyushitsu.html">研究室ページのデモ</a>
+
+    <h2>教室一覧</h2>
+    <h4>1F</h4>
+    <form>
+        <select>
+            <option>E101</option>
+            <option>E102</option>
+            <option>E103</option>
+            <option>E104</option>
+            <option>E105</option>
+            <option>E106</option>
+            <option>E107</option>
+            <option>E108</option>
+            <option>E109</option>
+            <option>E110</option>
+            <option>E111</option>
+            <option>E112</option>
+            <option>E113</option>
+            <option>E114</option>
+            <option>E115</option>
+            <option>E116</option>
+            <option>E117</option>
+            <option>E118</option>
+            <option>E119</option>
+            <option>E120</option>
+            <option>E121</option>
+            <option>E122</option>
+            <option>E123</option>
+            <option>E124</option>
+        </select>
+         <input type="submit" value="検索">
+    </form>
+
+    <h4>2F</h4>
+     <form>
+         <select>
+             <option>E201</option>
+             <option>E202</option>
+             <option>E203</option>
+             <option>E204</option>
+             <option>E205</option>
+             <option>E206</option>
+             <option>E207</option>
+             <option>E208</option>
+             <option>E209</option>
+             <option>E210</option>
+             <option>E211</option>
+             <option>E212</option>
+             <option>E213</option>
+             <option>E214</option>
+             <option>E215</option>
+             <option>E216</option>
+             <option>E217</option>
+             <option>E218</option>
+             <option>E219</option>
+             <option>E220</option>
+             <option>E221</option>
+             <option>E222</option>
+             <option>E223</option>
+             <option>E224</option>
+         </select>
+         <input type="submit" value="検索">
+     </form>
+
+     <h4>3F</h4>
+     <form>
+         <select>
+             <option>E301</option>
+             <option>E302</option>
+             <option>E303</option>
+             <option>E304</option>
+             <option>E305</option>
+             <option>E306</option>
+             <option>E307</option>
+             <option>E308</option>
+             <option>E309</option>
+             <option>E310</option>
+             <option>E311</option>
+             <option>E312</option>
+             <option>E313</option>
+             <option>E314</option>
+             <option>E315</option>
+             <option>E316</option>
+             <option>E317</option>
+             <option>E318</option>
+             <option>E319</option>
+             <option>E320</option>
+             <option>E321</option>
+             <option>E322</option>
+             <option>E323</option>
+         </select>
+         <input type="submit" value="検索">
+     </form>
+
+    
+    </body>
+</html>

@@ -1,0 +1,28 @@
+.pbox{
+  display: flex;
+  border: solid 1px black;
+  padding: 5px;
+}
+.cbox{
+  border: solid 1px black;
+  vertical-align: middle;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+}
+.blue{
+  background-color: blue;
+}
+.green{
+  background-color: lawngreen;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+  background-color: yellow;
+}
+.box{
+  background-color: dodgerblue;
+}
